@@ -1,3 +1,5 @@
+const menuContainer = document.querySelector(".menu-container");
+const closeMenuContainer = document.querySelector(".close-menu-container");
 const percentValue = document.querySelector(".percent-value");
 const quoteSection = document.querySelector(".quote-section");
 const progressBar = document.querySelector(".progress-bar");

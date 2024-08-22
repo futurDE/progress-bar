@@ -1,0 +1,3 @@
+- include a navbar.
+- inside the navbar include an option to put a start time and a stop time.
+- let the percent bar increase based on the start time and the stop time.

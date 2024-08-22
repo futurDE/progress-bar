@@ -1,3 +1,23 @@
+.navbar {
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.schedule {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .percent {
     display: flex;
     align-items: center;
@@ -45,9 +65,47 @@
     border-right-style: solid;
 }
 
-button {
+.click-button {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-70%, -50%);
+}
+
+
+/*schedule.html styling*/
+.timer-section {
+    display: flex;
+    margin: 130px 0 0 0;
+}
+
+.start-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stop-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 5px;
+}
+
+textarea {
+    width: 120px;
+    height: 20px;
+}
+
+.enter-button {
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
